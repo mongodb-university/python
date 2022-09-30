@@ -6,6 +6,7 @@ Learning objective:
 - Create documents using insert_one() and insert_many()
 """
 
+import datetime
 import os
 
 from dotenv import load_dotenv
@@ -29,6 +30,7 @@ new_account = {
     "account_id": "MDB829001337",
     "account_type": "checking",
     "balance": 50352434,
+    "last_updated": datetime.datetime.utcnow(),
 }
 
 # TODO: Write an expression that inserts the 'new_account' document into the 'accounts' collection. Assign the result of the insert operation to a variable named 'result'.
