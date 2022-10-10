@@ -25,8 +25,8 @@ db = client.bank
 # Get a reference to the 'accounts' collection
 accounts_collection = db.accounts
 
-# Filter for accounts with balance less than $2000
-documents_to_delete = {"balance": {"$lt": 2000}}
+# Filter for accounts with balance less than $500
+documents_to_delete = {"balance": {"$lt": 500}}
 
 # Search for sample document before delete
 print("Searching for sample target document before delete: ")
