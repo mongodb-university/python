@@ -29,9 +29,9 @@ accounts_collection = db.accounts
 select_accounts = {"account_type": "savings"}
 
 # Update
-set_field = {"$set": {"minimum_balance": 100}}
+add_transfer = {"$push": {"transfers_complete": "TR413308000"}}
 
-# TODO: Write an expression that adds a 'minimum_balance' field to each savings acccount and sets its value to 100. Assign the result of this update operation to a variable named `result`.
+# TODO: Write an expression that adds the transfer ID number to the 'tranfers_complete' list of each checking account. Assign the result of this update operation to a variable named `result`.
 
 
 print("Documents matched: " + str(result.matched_count))
