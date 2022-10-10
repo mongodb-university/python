@@ -26,7 +26,7 @@ db = client.bank
 accounts_collection = db.accounts
 
 # Filter
-select_accounts = {"account_type": "savings"}
+select_accounts = {"account_type": "checking"}
 
 # Update
 add_transfer = {"$push": {"transfers_complete": "TR413308000"}}
