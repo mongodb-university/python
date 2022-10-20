@@ -1,12 +1,3 @@
-"""Code for Python drivers course - Unit 3, Lesson 3
-
-Lesson title: Using MongoDB aggregation stages with Python: $sort and $project
-
-Learning objectives:
-- Build an aggregation pipeline using Python
-- Identify the stages ($sort, $project) of an aggregation pipeline
-"""
-
 import os
 import pprint
 
@@ -40,7 +31,7 @@ conversion_rate_usd_to_gbp = 1.3
 # TODO 3: Return only the account type & balance fields, plus a new field containing balance in Great British Pounds (GBP). Name the new field "gbp_balance"
 
 
-# TODO 4: Create an aggegation pipeline containing the four stages created above
+# TODO 4: Create an aggegation pipeline containing the three stages created above
 
 
 # TODO 5: Perform an aggregation on 'pipeline'.
