@@ -1,11 +1,3 @@
-"""Code for Python drivers course - Unit 2, Lesson 2.
-
-Lesson title: Inserting a Document in a Python Application
-
-Learning objective:
-- Create documents using insert_one() and insert_many()
-"""
-
 import datetime
 import os
 
