@@ -1,12 +1,3 @@
-"""Code for Python drivers course - Unit 3, Lesson 2.
-
-Lesson title: Using MongoDB aggregation stages with Python: $match and $group
-
-Learning objectives:
-- Build an aggregation pipeline using Python
-- Identify the stages ($match, $group) of an aggregation pipeline
-"""
-
 import os
 import pprint
 
@@ -34,7 +25,7 @@ accounts_collection = db.accounts
 # TODO 2: Separate documents by account type and calculate the average balance for each account type.
 
 
-# TODO 3: Create an aggegation pipeline using 'stage_match_balance' and 'stage_group_account_type'.
+# TODO 3: Create an aggegation pipeline using 'select_by_balance' and 'separate_by_account_calculate_avg_balance'.
 
 
 # TODO 4: Perform an aggregation on 'pipeline'.
