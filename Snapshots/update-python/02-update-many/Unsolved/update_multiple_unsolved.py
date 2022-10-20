@@ -1,11 +1,3 @@
-"""Code for Python drivers course - Unit 2, Lesson 4.
-
-Lesson title: Updating Documents in Python Applications
-
-Learning objective:
-- Update documents using update_one() and update_many()
-"""
-
 import os
 import pprint
 
