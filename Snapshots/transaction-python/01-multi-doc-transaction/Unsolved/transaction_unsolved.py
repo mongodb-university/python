@@ -1,11 +1,3 @@
-"""Code for Python drivers course - Unit 2, Lesson 6
-
-Lesson title: Creating MongoDB Transactions in Python Applications
-
-Learning objective:
-- Create a multi-document transaction
-"""
-
 import os
 
 from dotenv import load_dotenv

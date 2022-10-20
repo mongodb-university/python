@@ -1,11 +1,3 @@
-"""Code for Python drivers course - Unit 2, Lesson 5
-
-Lesson title: Deleting Documents in Python Applications
-
-Learning objective:
-- Delete documents using delete_one() and delete_many()
-"""
-
 import os
 import pprint
 
