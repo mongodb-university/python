@@ -1,12 +1,3 @@
-"""Code for Python drivers course - Unit 2, Lesson 3.
-
-Lesson title: Querying a MongoDB Collection in Python Applications
-
-Learning objectives:
-- Find documents using find() and find_one()
-- Describe how queries are expressed in Python
-"""
-
 import os
 import pprint
 
